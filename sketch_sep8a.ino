@@ -17,6 +17,7 @@ DHT dht(DHTPIN,DHTTYPE);
 
 void setup() {
   // put your setup code here, to run once:
+  //github
    Serial.begin(9600);
    Serial.println("DHT Test Successful");
    Blynk.begin(auth,ssid,pass);
